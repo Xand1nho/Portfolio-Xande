@@ -1,6 +1,7 @@
 
 /* Aqui vai as classes CSS do App.module.css */
 
-.titulo {
-  color: red;
+.menu{
+  display: flex;
+  width: 100% ;
 }
