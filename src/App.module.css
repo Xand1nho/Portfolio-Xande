@@ -1,7 +1,91 @@
-
-/* Aqui vai as classes CSS do App.module.css */
-
 .menu{
   display: flex;
-  width: 100% ;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  justify-content:  center;
+  height: 80px;
+  gap: 20px;
+  z-index: 999;
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.98);
+}
+
+.s1{
+  background-color: rgb(255, 255, 255);
+  color: #011422;
+  min-height: 100vh; /* 100% da altura da tela */
+  height: 80px; /* Altura do menu fixo */
+  padding-top: 80px; /* Espaço para o menu fixo */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.left{
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  overflow: hidden;
+  box-shadow: 0 0px 100px rgba(0, 0, 0, 0.5);
+}
+
+.imgPerfil{
+  width: 400px;
+  height: 400px;
+  transition: all 200ms ease-in-out;
+  transition-delay: 0ms;
+}
+
+.imgPerfil:hover{
+  transform: scale(1.1);
+}
+
+.right{
+  background-color: rgba(252, 206, 0, 0.664);
+  width: 500px;
+}
+
+.title{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.paragraph{
+  font-size: 18px;
+  box-shadow: 0px 0px 100px #000000;
+}
+
+@media (width <= 768px){
+  .s1{
+    padding-top: 50px;
+    gap: 0;
+  }
+
+  .left{
+      width: 300px;
+      height: 300px;
+  }
+
+  .imgPerfil{
+      width: 350px;
+      height: 300px;
+  }
+
+  .right{
+    padding: 20px;
+    margin-top: -150px;
+  }
+
+  .left, .imgPerfil{
+    width: 300px;
+    height: 300px;
+  }
+
+  .right{
+    padding: 20px;
+    margin-top: -150px;
+  }
 }
