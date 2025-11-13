@@ -1,0 +1,39 @@
+[
+    {
+        "id": "1",
+        "imagem": "/HTML.png",
+        "tecnologia": "HTML",
+        "texto": "HTML é a sigla para HyperText Markup Language que é a linguagem de marcação utilizada para criar páginas na web."
+    }
+    ,{
+        "id": "2",
+        "imagem": "/Cssremovedor.png",
+        "tecnologia": "CSS",
+        "texto": "CSS é a sigla para Cascading Style Sheets, que é a linguagem de estilo utilizada para descrever a apresentação de documentos HTML."
+    },
+    {
+        "id": "3",
+        "imagem": "/JavaScript.png",
+        "tecnologia": "JavaScript",
+        "texto": "JavaScript é uma linguagem de programação que permite implementar funcionalidades complexas em páginas web."
+    },
+    {
+        "id": "4",
+        "imagem": "/Vitejs3.png",
+        "tecnologia": "Vite",
+        "texto": "Vite é uma ferramenta de build rápida para projetos web modernos."
+    },
+    {
+        "id": "5",
+        "imagem": "/React.png",
+        "tecnologia": "React",
+        "texto": "React é uma biblioteca JavaScript para construir interfaces de usuário."
+    },
+    {
+        "id": "6",
+        "imagem": "/Vercel.png",
+        "tecnologia": "Vercel",
+        "texto": "Vercel é uma plataforma de hospedagem para sites estáticos e aplicações web."
+    }
+    
+]
