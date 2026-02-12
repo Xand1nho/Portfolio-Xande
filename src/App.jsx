@@ -1,6 +1,5 @@
 import styles from './App.module.css'
 
-// Ajuste nos caminhos das imagens para funcionar na Vercel
 import perfil from '/perfil.png'
 import IconInstagram from '/Instagram.png'
 import IconFacebook from '/Facebook1.png'
@@ -17,7 +16,7 @@ function App() {
 
   const defaultPhoneNumber = '5541984502786';
 
-  // Busca repositórios
+  // Buscar os meus respoistorios
   useEffect(() => {
     fetch('https://api.github.com/users/Xand1nho/repos?sort=updated')
       .then(response => response.json())
@@ -25,7 +24,7 @@ function App() {
       .catch(err => console.error("Erro GitHub:", err));
   }, []);
 
-  // Carrega JSON local
+  
   useEffect(() => {
     fetch('/cardsInfo.json')
       .then((response) => response.json())
@@ -136,5 +135,6 @@ function App() {
     </>
   );
 }
+
 
 export default App; 
